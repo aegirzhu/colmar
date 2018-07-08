@@ -332,9 +332,9 @@ header {
     flex-direction: column;
   }
 
-	.information-right .information-right-item {
-    width: 100%;
+	.information .information-right .information-right-item {
 		flex-direction: column;
+    width: 100%;
 		box-sizing: border-box;
 	}
 	.information-right .information-right-item .image {
@@ -395,7 +395,7 @@ header {
 		font-size: 2rem;
     padding: 1rem 0;
 	}
-  .courses-item img, .subtitle, .description {
+  .courses-item img,.courses-item .subtitle, .courses-item .description {
 		display: none;
 	}
 	.courses-item .title {
